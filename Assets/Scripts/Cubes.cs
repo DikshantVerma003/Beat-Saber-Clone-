@@ -7,6 +7,6 @@ public class Cubes : MonoBehaviour
     
     void Update()
     {
-        transform.position += Time.deltaTime * transform.forward * 2;
+        transform.position += Time.deltaTime * transform.forward * 3;
     }
 }
